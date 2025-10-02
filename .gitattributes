@@ -1,2 +1,35 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment
+.env
+EOF
+
+echo "✅ Portfolio structure created!"
+echo ""
+echo "📂 Structure:"
+echo "portfolio/"
+echo "├── index.html"
+echo "├── css/main.css"
+echo "├── js/script.js"
+echo "├── assets/images/"
+echo "├── README.md"
+echo "└── .gitignore"
+echo ""
+echo "🚀 Next steps:"
+echo "1. cd portfolio"
+echo "2. Open index.html in browser or use Live Server"
+echo "3. Edit files to customize your portfolio"
+echo ""
+echo "💡 Quick edit:"
+echo "   code .  # Opens in VS Code"
