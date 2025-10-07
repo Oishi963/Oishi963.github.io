@@ -1,4 +1,3 @@
-
 // Main JavaScript for Oishi Portfolio
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -10,13 +9,13 @@ let isTyping = false;
 // Initial commands to execute on page load
 const initialCommands = [
 	{ type: 'command', text: 'whoami', delay: 500 },
-	{ type: 'output', text: "Hi, I'm Oishi, an IT Network & Systems Engineer with 8+ years of experience.", delay: 100 },
+	{ type: 'output', text: "Hi, I'm Oishi, an Beginner IT Network & Systems Engineer with.", delay: 100 },
 	{ type: 'command', text: 'show specialist', delay: 1500 },
 	{ type: 'output', text: 'Specialized in designing, monitoring, and automating complex network infrastructures—including all aspects of data center operations.', delay: 100 },
 	{ type: 'command', text: 'show love', delay: 1500 },
-	{ type: 'output', text: 'Love troubleshooting and exploring any tech-related topics - AI, open-sources, self-hosting, automations.', delay: 100 },
+	{ type: 'output', text: 'I love to learn about newest technology in IT especially AI.', delay: 100 },
 	{ type: 'command', text: 'show hobbies', delay: 1500 },
-	{ type: 'output', text: 'Gaming, football, Pentesting, Cybersecurity and tinkering with Hardware or Home Labs.', delay: 100 },
+	{ type: 'output', text: 'Gaming,Coding and making Web.', delay: 100 },
 	{ type: 'command', text: 'help', delay: 2000 },
 	{ type: 'help', delay: 100 },
 	{ type: 'input', delay: 1000 }
@@ -136,10 +135,11 @@ network monitoring systems, and infrastructure automation projects.`,
    - Custom vulnerable VMs for training`,
 
 	contact: `Contact Information:
-📧 Email: alvanadittya18@gmail.com
+📧 Email: <a href="mailto:mlyleaitchy@gmail.com" target="_blank">mlyleaitchy@gmail.com</a>
 📱 Location: Jayapura, abepura, Indonesia
-🔗 GitHub: github.com/Oishi963
-💼 LinkedIn: linkedin.com/in/oishi`,
+🔗 GitHub: <a href="https://github.com/Oishi963" target="_blank">github.com/Oishi963</a>
+💬 Discord: Oishi963
+`,
 
 	clear: 'CLEAR_TERMINAL',
     
