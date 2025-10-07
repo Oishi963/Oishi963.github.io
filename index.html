@@ -1,75 +1,75 @@
-<!DOCTYPE html>
+<!DOCTYPE html>ipt for Oishi Portfolio
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<head>nt.addEventListener('DOMContentLoaded', function () {
+    <meta charset="UTF-8"> command logic can be moved here if needed
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oishi - IT Network & Systems Engineer</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
+<body>tial commands to execute on page load
+    <!-- Navigation --> [
+    <nav>'command', text: 'whoami', delay: 500 },
+        <ul>tput', text: "Hi, I'm Oishi, an Beginner IT Network & Systems Engineer with.", delay: 100 },
+            <li><a href="#home">Home</a></li>delay: 1500 },
+            <li><a href="#skills">Skills</a></li>g, monitoring, and automating complex network infrastructures—including all aspects of data center operations.', delay: 100 },
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
+            <li><a href="#experience">Experience</a></li>chnology in IT especially AI.', delay: 100 },
+            <li><a href="#contact">Contact</a></li>00 },
+        </ul>put', text: 'Gaming,Coding and making Web.', delay: 100 },
+    </nav>command', text: 'help', delay: 2000 },
+	{ type: 'help', delay: 100 },
+    <!-- Hero Section -->1000 }
     <section class="hero" id="home">
         <h1>IT NETWORK & SYSTEMS ENGINEER</h1>
         <p class="subtitle">NETWORK & SECURITY IMPLEMENTATION</p>
-    </section>
-
-    <!-- Terminal Section -->
+    </section>eLine(type, text = '') {
+	const line = document.createElement('div');
+    <!-- Terminal Section -->ine';
     <div class="terminal-section">
         <div class="terminal-window">
-            <div class="terminal-header">
+            <div class="terminal-header">user@you:~$</span> <span class="command">${text}</span>`;
                 <div class="terminal-button btn-red"></div>
                 <div class="terminal-button btn-yellow"></div>
                 <div class="terminal-button btn-green"></div>
                 <div class="terminal-title">Network Engineer Terminal</div>
-            </div>
+            </div> `<span class="prompt">user@you:~$</span> <input type="text" class="terminal-input" id="userInput" placeholder="Type 'help' for commands">`;
             <div class="terminal-body" id="terminal">
                 <!-- Content will be dynamically added by script.js -->
-            </div>
-        </div>
-    </div>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Technical Skills</h2>
+            </div>o">about</span>      - Learn more about me
+        </div>"info">skills</span>     - View technical skills
+    </div>ass="info">experience</span> - Work experience
+  <span class="info">projects</span>   - Featured projects
+    <!-- Skills Section -->t</span>    - Contact information
+    <section id="skills">r</span>      - Clear terminal
+        <h2>Technical Skills</h2>      - Show this menu</span>`;
         <div class="skills-grid">
             <div class="skill-card">
                 <h3>Network Engineering</h3>
-                <ul>
+                <ul>= terminal.scrollHeight;
                     <li>Add your skills here</li>
                 </ul>
             </div>
             <div class="skill-card">
-                <h3>Automation</h3>
-                <ul>
+                <h3>Automation</h3>eed = 50) {
+                <ul>resolve => {
                     <li>Add your skills here</li>
-                </ul>
+                </ul>t.querySelector('.command') || element.querySelector('.output');
             </div>
             <div class="skill-card">
                 <h3>Monitoring</h3>
                 <ul>
                     <li>Add your skills here</li>
-                </ul>
-            </div>
+                </ul>'';
+            </div>dd('typing');
             <div class="skill-card">
                 <h3>Virtualization</h3>
-                <ul>
+                <ul>th) {
                     <li>Add your skills here</li>
                 </ul>
-            </div>
+            </div>lTop = terminal.scrollHeight;
         </div>
-    </section>
-
+    </section>val(interval);
+				span.classList.remove('typing');
     <!-- Projects Section -->
     <section id="projects">
         <h2>Featured Projects</h2>
@@ -82,15 +82,15 @@
                     <div class="project-tech">
                         <span class="tech-tag">Tech</span>
                         <span class="tech-tag">Stack</span>
-                    </div>
+                    </div>e => setTimeout(resolve, cmd.delay));
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2>Work Experience</h2>
+            </div> 'command') {
+        </div>= createLine('command', '');
+    </section>ext(line, cmd.text, 30);
+		} else if (cmd.type === 'output') {
+    <!-- Experience Section -->put', '');
+    <section id="experience">ext, 15);
+        <h2>Work Experience</h2>) {
         <div class="skills-grid">
             <div class="skill-card">
                 <h3>Job Title</h3>
@@ -103,44 +103,45 @@
             </div>
             <div class="skill-card">
                 <h3>Job Title</h3>
-                <p style="color: #00d9ff; margin: 10px 0;">Company Name | Year - Year</p>
-                <ul>
-                    <li>Add your responsibilities here</li>
+                <p style="color: #00d9ff; margin: 10px 0;">Company Name | Year - Year</p>gn and automation. 
+                <ul> experience, I've worked on large-scale data center operations, 
+                    <li>Add your responsibilities here</li>rojects.`,
                     <li>Add your achievements here</li>
                     <li>Add more details here</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
+                </ul>iper, Fortinet, pfSense
+            </div>on, Ansible, Terraform
+        </div>Nagios, Zabbix, Prometheus, Grafana
+    </section>on: VMware, Proxmox, KVM
+• Cloud: AWS, Azure, GCP`,
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Get In Touch</h2>
-        <div class="contact-grid">
+    <section id="contact">nce:
+        <h2>Get In Touch</h2>ech Corp (2020 - Present)
+        <div class="contact-grid">frastructure
             <div class="contact-card">
                 <h3>📧 Email</h3>
-                <a href="mailto:oishi@example.com">oishi@example.com</a>
-            </div>
+                <a href="mailto:mlyleaitchy@gmail.com">mlyleaitchy@gmail.com</a>
+            </div>etwork devices
             <div class="contact-card">
-                <h3>💼 LinkedIn</h3>
-                <a href="https://linkedin.com/in/oishi" target="_blank">linkedin.com/in/oishi</a>
-            </div>
-            <div class="contact-card">
-                <h3>🔗 GitHub</h3>
-                <a href="https://github.com/oishi" target="_blank">github.com/oishi</a>
-            </div>
-            <div class="contact-card">
+                <h3>💬 Discord</h3>
+                <span style="color: #b0b0b0;">Oishi963</span>
+            </div>ion Framework
+            <div class="contact-card">ion
+                <h3>🔗 GitHub</h3> CI/CD
+                <a href="https://github.com/Oishi963" target="_blank">github.com/Oishi963</a>
+            </div>ructure
+            <div class="contact-card">VMs
                 <h3>📍 Location</h3>
                 <p style="color: #b0b0b0;">Jayapura, Papua, Indonesia</p>
-            </div>
+            </div>able VMs for training`,
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
+    </section>tact Information:
+📧 Email: <a href="mailto:mlyleaitchy@gmail.com" target="_blank">mlyleaitchy@gmail.com</a>
+    <!-- Footer -->ra, abepura, Indonesia
+    <footer>a href="https://github.com/Oishi963" target="_blank">github.com/Oishi963</a>
         <p>&copy; 2024 Oishi. All rights reserved.</p>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
-</html>
+</html>`Available commands:
+  about      - Learn more about me  skills     - View technical skills  experience - Work experience  projects   - Featured projects  contact    - Contact information  clear      - Clear terminal  help       - Show this menu`};// Handle user commandsfunction handleCommand(cmd) {	const command = cmd.toLowerCase().trim();    	if (command === '') return;	createLine('command', cmd);	if (command === 'clear') {		setTimeout(() => {			terminal.innerHTML = '';			createLine('input');			document.getElementById('userInput')?.focus();		}, 100);		return;	}	if (responses[command]) {		setTimeout(() => {			createLine('output', responses[command]);			createLine('input');			document.getElementById('userInput')?.focus();		}, 300);	} else {		setTimeout(() => {			createLine('output', `<span class="error">Command not found: ${cmd}</span>\nType 'help' for available commands.`);			createLine('input');			document.getElementById('userInput')?.focus();		}, 300);	}}// Event listenersdocument.addEventListener('keydown', (e) => {	const input = document.getElementById('userInput');	if (input && e.key === 'Enter') {		const cmd = input.value;		input.remove();		handleCommand(cmd);	}});window.addEventListener('load', () => {	executeCommandQueue();});document.addEventListener('click', () => {	const input = document.getElementById('userInput');	if (input) input.focus();});document.querySelectorAll('nav a').forEach(anchor => {	anchor.addEventListener('click', function (e) {		e.preventDefault();		const target = document.querySelector(this.getAttribute('href'));		target.scrollIntoView({ behavior: 'smooth', block: 'start' });	});});
